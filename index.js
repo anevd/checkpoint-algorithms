@@ -11,17 +11,6 @@ function crawlTree(tree) {
 	return string;
 }
 
-/* console.log(
-	crawlTree([
-		[
-			[["П", "р"], "и"],
-			["в", ["е", "т"]],
-		],
-		[["и", "к"], "и"],
-	])
-); */
-// console.log(crawlTree([["П", "и"], ["с", ["т", ["о"]]], "л", [["е", "т"], [["и", "к"]]], "и"]));
-
 // Код для второго задания напиши в этой функции
 function twoSum(arr, target, start = 0) {
 	let indexes = [];
@@ -36,10 +25,6 @@ function twoSum(arr, target, start = 0) {
 	}
 	return indexes;
 }
-
-// console.log(twoSum([3, 2, 4], 6));
-// console.log(twoSum([2, 7, 11, 15], 9));
-// console.log(twoSum([3, 3], 6));
 
 // Всё, что ниже, нужно для тестов. Не изменяй этот код
 const functions = { crawlTree, twoSum };
